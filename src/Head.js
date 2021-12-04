@@ -4,11 +4,11 @@ import { Button, Row, Col, Container } from 'react-bootstrap';
 function Head() {
   return (
     <div className="head">
-      <Container fluid="md">
-        <Row>
-          <Col>1 of 1</Col>
-        </Row>
-      </Container>
+      <div className="title">Klay Dutch Auction</div>
+      <div className="myPage">
+        <div className="eff-1" />
+        <a href="#"> My Page </a>
+      </div>
     </div>
   );
 }

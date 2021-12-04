@@ -1,6 +1,53 @@
-.col{
-    width: 100%;
+.head{
     height: 80px;
     box-shadow: 0 4px 4px -4px darkgray;
     background-color: #FAFAFa;
 }
+
+.myPage{
+    width:140px;
+    height:50px;
+    border:2px solid #34495e;
+    border-radius: 30px;
+    float:right;
+    text-align:center;
+    font-weight: bolder;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin: 13px 50px 10px 20px;
+}
+
+.title{
+    padding: 25px;
+    font-size: 26px;
+    font-weight: bolder;
+    float: left;
+}
+
+.myPage a{
+    font-family:arial;
+    font-size:16px;
+    color:#fff;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-1{
+    width:140px;
+    height:50px;
+    border:70px solid #34495e;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .myPage:hover .eff-1{
+    border:0px solid #34495e;
+  }
+  .myPage:hover a{
+    color:#34495e;
+  }

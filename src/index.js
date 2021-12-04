@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import List from './List';
 import Head from './Head';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,6 +10,13 @@ ReactDOM.render(
     <Head />
   </React.StrictMode>,
   document.getElementById('header')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <List />
+  </React.StrictMode>,
+  document.getElementById('list')
 );
 
 // If you want to start measuring performance in your app, pass a function
