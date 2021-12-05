@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
 .des {
   font-family: 'Abel', sans-serif;
   font-size: 35px;
@@ -41,6 +41,15 @@ code {
     }
 }
 
-#list{
-  width: 100%;
+
+.text- {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  display: inline-block;
+  align-items: center;
+  margin: 50px 200px 50px 200px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color:#34495e;
+  font-weight: bold;
 }

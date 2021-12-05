@@ -9,7 +9,7 @@
 .myPage{
     width:140px;
     height:50px;
-    border:2px solid #34495e;
+    border:2px solid #0d6efd;
     border-radius: 30px;
     float:right;
     text-align:center;
@@ -22,7 +22,7 @@
 }
 
 .title{
-   font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 25px;
     font-size: 26px;
     font-weight: bolder;
@@ -42,15 +42,15 @@
   .eff-1{
     width:140px;
     height:50px;
-    border:70px solid #34495e;
+    border:70px solid#0d6efd;
     position:absolute;
     transition:all .5s ease;
     z-index:1;
     box-sizing:border-box;
   }
   .myPage:hover .eff-1{
-    border:0px solid #34495e;
+    border:0px solid #0d6efd;
   }
   .myPage:hover a{
-    color:#34495e;
+    color:#0d6efd;
   }

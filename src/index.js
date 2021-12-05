@@ -2,15 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import List from './component/List';
 import Head from './component/Head';
+import MynftList from './component/MynftList';
 import './index.css';
 import {BrowserRouter, Routes, Route, react} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
 
-function myPage(){
-  return (
-    <div>
 
+function MyPage(){
+  return (
+    <div className="NFT">
+      <p class="text-">My NFT</p>
+      <MynftList/>
     </div>
   );
 }
@@ -31,7 +34,7 @@ function App() {
         <Head></Head>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/myPage" element={<myPage/>}/>
+          <Route path="/myPage" element={<MyPage/>}/>
         </Routes>
       </BrowserRouter>
   );

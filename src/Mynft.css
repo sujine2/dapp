@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+
+
+
+.nft,
+.nft- {
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin: 0px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    color: #fff;
+    background: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+.nft{
+    cursor: pointer;
+}
+
+.nft:hover{
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+
+.nft- img,
+.nft img{
+    opacity: 0.8;
+    width: 100%;
+    vertical-align: top;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+.nft * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.nft figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nft figcaption > div {
+    height: 50%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.nft h1{
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-size: 1em;
+  bottom: 0;
+  font-weight: 500;
+}
+
+.nft h1:nth-of-type(2) {
+    opacity: 0;
+    -webkit-transform: translateY(150%);
+    transform: translateY(150%);
+  }
+
+.nft:hover img,
+.nft.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.nft :hover figcaption h1:first-of-type,
+.nft.hover figcaption h1:first-of-type {
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+  opacity: 0;
+}
+.nft h1:nth-of-type(2) {
+    opacity: 0;
+    -webkit-transform: translateY(150%);
+    transform: translateY(150%);
+}
+.nft:hover figcaption h1:nth-of-type(2),
+.nft.hover figcaption h1:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+
+.nft- img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.nft-- {
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 40%;
+    right: 35%;
+}
+
+.nft-- h2{
+    font-size: 20px;
+}
+
+.mdImg{
+    display: inline-block;
+    margin: 20px;
+}
+
+.mdInput{
+    display: inline-block;
+    float: right;
+    margin: 20px;
+    margin-right: 30px;
+}
+
+#contained-modal-title-vcenter,
+#mdBody{
+    font-family: 'Source Sans Pro', sans-serif;
+}

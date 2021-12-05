@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+
+.nftList{
+    padding: 100px;
+}
+.section-{
+    display: inline-block;
+    width: 320px;
+    float: left;
+    margin: 16px;
+}
+
