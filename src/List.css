@@ -33,7 +33,7 @@
 }
 .text{
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 5px 20px 2px 20px;
+    padding: 10px 20px 1px 20px;
     font-weight: bold;
     font-size: 16px;
 
@@ -42,4 +42,11 @@
 .item img{
     width: 100%;
     height: auto;
+}
+
+.time {
+    display: inline-block;
+}
+.day{
+    float:right;
 }

@@ -42,24 +42,41 @@ function List() {
         <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"  />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay
-              </p>  
+              <p className="text">
+                <div class="time">
+                Time:&nbsp;&nbsp;&nbsp;00M 00D
+                </div>
+                <div class="day">
+                Pice:&nbsp;&nbsp;&nbsp;1 klay
+                </div>
+             </p>
           </figcaption> 
         </figure>   
         <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample21.jpg"  />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p>   
           </figcaption> 
         </figure>
         
         <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p>     
           </figcaption> 
         </figure>
       </div>
@@ -68,16 +85,28 @@ function List() {
         <figure className="item"  onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample32.jpg" alt="sq-sample32" />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p>   
           </figcaption> 
         </figure>
 
         <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p>   
           </figcaption> 
         </figure>    
       </div>
@@ -87,15 +116,27 @@ function List() {
         <figure className="item"  onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample72.jpg" alt="sample72"/>
           <figcaption>
-              <p className="text">Time: &nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice: &nbsp;&nbsp;&nbsp;1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p> 
           </figcaption> 
         </figure>
         <figure className="item"onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
           <figcaption>
-              <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp; 1 klay</p>     
+            <p className="text">
+              <div class="time">
+              Time:&nbsp;&nbsp;&nbsp;00M 00D
+              </div>
+              <div class="day">
+              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </div>
+            </p>
           </figcaption> 
         </figure>
       </div>
