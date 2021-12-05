@@ -34,6 +34,10 @@ function List() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="List">
+        <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+        />  
       <div className="section">
         <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"  />
@@ -42,30 +46,26 @@ function List() {
               <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay
               </p>  
           </figcaption> 
-        </figure>    
-        <MyVerticallyCenteredModal
-                  show={modalShow}
-                  onHide={() => setModalShow(false)}
-                />  
-        <figure className="item">
+        </figure>   
+        <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample21.jpg"  />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
               <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
           </figcaption> 
         </figure>
-        <figure className="item">
+        
+        <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
               <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>     
           </figcaption> 
         </figure>
-
       </div>
 
       <div className="section">
-        <figure className="item">
+        <figure className="item"  onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample32.jpg" alt="sq-sample32" />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
@@ -73,7 +73,7 @@ function List() {
           </figcaption> 
         </figure>
 
-        <figure className="item">
+        <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
@@ -84,14 +84,14 @@ function List() {
 
 
       <div className="section">
-        <figure className="item">
+        <figure className="item"  onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample72.jpg" alt="sample72"/>
           <figcaption>
               <p className="text">Time: &nbsp;&nbsp;&nbsp;00M 00D</p>
               <p className="text">Pice: &nbsp;&nbsp;&nbsp;1 klay</p>     
           </figcaption> 
         </figure>
-        <figure className="item">
+        <figure className="item"onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
