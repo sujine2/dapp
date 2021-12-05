@@ -1,9 +1,40 @@
-.item{
-    width:50px;
-    height: 80px;
-    border-radius: 20px;
-    border: 1px #34495e;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+
+.List{
+    padding: 50px;
 }
-.item figcaption{
+.section{
+    display: inline-block;
+    width: 350px;
+    float: left;
+    margin: 16px;
+}
+
+.item{
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin: 0px;
+    width: 350px;
+    margin-bottom: 30px;
+    height: auto;
+    color: #141414;
+    font-size: 16px;
+
+    border: 1px solid #e0e0e0;
+}
+.item:hover{
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+.text{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+ 
+.item img{
     width: 100%;
+    height: auto;
 }
