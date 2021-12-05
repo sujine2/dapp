@@ -1,5 +1,6 @@
 import '../Head.css';
-import { Button, Row, Col, Container } from 'react-bootstrap';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Head() {
   return (
@@ -7,7 +8,7 @@ function Head() {
       <div className="title">Klay Dutch Auction</div>
       <div className="myPage">
         <div className="eff-1" />
-        <a href="#"> My Page </a>
+        <Link to="/myPage"> My Page </Link>
       </div>
     </div>
   );

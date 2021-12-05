@@ -1,23 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import List from './component/List';
 import Head from './component/Head';
+import './index.css';
+import {BrowserRouter, Routes, Route, react} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Head />
-  </React.StrictMode>,
-  document.getElementById('header')
-);
+function myPage(){
+  return (
+    <div>
+
+    </div>
+  );
+}
+
+function Home(){
+  return (
+      <div className="Home">
+          <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis molestie est quis sodales.</p>
+          <br/><br/>
+          <List/>
+      </div>
+  );
+}
+
+function App() {
+  return (
+      <BrowserRouter>
+        <Head></Head>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/myPage" element={<myPage/>}/>
+        </Routes>
+      </BrowserRouter>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <List />
+    <App />
   </React.StrictMode>,
-  document.getElementById('list')
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

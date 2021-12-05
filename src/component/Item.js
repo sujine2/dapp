@@ -34,10 +34,7 @@ function Item(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="Iist">
-        <MyVerticallyCenteredModal
-                  show={modalShow}
-                  onHide={() => setModalShow(false)}
-        />  
+        <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)}/>  
       
         <figure className="item" onClick={() => setModalShow(true)}>
             <img src={props.img}  />
