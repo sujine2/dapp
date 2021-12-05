@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import List from './List';
 import Head from './Head';
 import reportWebVitals from './reportWebVitals';

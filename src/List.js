@@ -34,23 +34,19 @@ function List() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="List">
-      <Button variant="primary">Primary</Button>
       <div className="section">
-        <figure className="item">
+        <figure className="item" onClick={() => setModalShow(true)}>
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"  />
           <figcaption>
               <p className="text">Time:&nbsp;&nbsp;&nbsp;00M 00D</p>
-              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay</p>   
-              <Button variant="primary" onClick={() => setModalShow(true)}>
-                more
-              </Button>
-
-              <MyVerticallyCenteredModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-              />  
+              <p className="text">Pice:&nbsp;&nbsp;&nbsp;1 klay
+              </p>  
           </figcaption> 
         </figure>    
+        <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />  
         <figure className="item">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample21.jpg"  />
           <figcaption>
