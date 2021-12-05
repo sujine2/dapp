@@ -1,4 +1,4 @@
-import './Head.css';
+import '../Head.css';
 import { Button, Row, Col, Container } from 'react-bootstrap';
 
 function Head() {

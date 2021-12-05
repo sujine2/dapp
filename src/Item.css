@@ -1,0 +1,36 @@
+.item{
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin: 0px;
+    width: 350px;
+    margin-bottom: 30px;
+    height: auto;
+    color: #141414;
+    font-size: 16px;
+
+    border: 1px solid #e0e0e0;
+}
+.item:hover{
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+.text{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 20px 1px 20px;
+    
+    font-size: 16px;
+
+}
+ 
+.item img{
+    width: 100%;
+    height: auto;
+}
+
+.time {
+    display: inline-block;
+}
+.day{
+    float:right;
+}

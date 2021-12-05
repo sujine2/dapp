@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import List from './List';
-import Head from './Head';
+import List from './component/List';
+import Head from './component/Head';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
