@@ -47,7 +47,7 @@ function List() {
                 Time:&nbsp;&nbsp;&nbsp;00M 00D
                 </div>
                 <div class="day">
-                Pice:&nbsp;&nbsp;&nbsp;1 klay
+                Price:&nbsp;&nbsp;&nbsp;1 klay
                 </div>
              </p>
           </figcaption> 
@@ -60,7 +60,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p>   
           </figcaption> 
@@ -74,7 +74,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p>     
           </figcaption> 
@@ -90,7 +90,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p>   
           </figcaption> 
@@ -104,7 +104,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p>   
           </figcaption> 
@@ -121,7 +121,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p> 
           </figcaption> 
@@ -134,7 +134,7 @@ function List() {
               Time:&nbsp;&nbsp;&nbsp;00M 00D
               </div>
               <div class="day">
-              Pice:&nbsp;&nbsp;&nbsp;1 klay
+              Price:&nbsp;&nbsp;&nbsp;1 klay
               </div>
             </p>
           </figcaption> 
