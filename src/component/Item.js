@@ -1,4 +1,4 @@
-import '../List.css';
+import '../Item.css';
 import React from 'react';
 import { Button, Row, Col, Container, Modal } from 'react-bootstrap';
 
