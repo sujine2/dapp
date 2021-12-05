@@ -21,12 +21,17 @@
     margin: 13px 50px 10px 20px;
 }
 
-.title{
+.title a{
     font-family: 'Source Sans Pro', sans-serif;
     padding: 25px;
     font-size: 26px;
     font-weight: bolder;
     float: left;
+    color: inherit; 
+    text-decoration-line: none;
+}
+.title :hover{
+  color: inherit; 
 }
 
 .myPage a{

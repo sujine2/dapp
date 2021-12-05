@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+.mdImg-{
+    display: inline-block;
+    margin: 20px 13px 20px 7px;
+}
+.mdInfo{
+    border-radius: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    float: right;
+    padding: 20px 40px 20px 25px;
+    font-size: 20px;
+    border: 1px solid #e0e0e0;
+}

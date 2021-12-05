@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 function Head() {
   return (
     <div className="head">
-      <div className="title">Klay Dutch Auction</div>
+      <div className="title">
+        <Link to="/">
+        Klay Dutch Auction
+        </Link>
+      </div>
       <div className="myPage">
         <div className="eff-1" />
         <Link to="/myPage"> My Page </Link>

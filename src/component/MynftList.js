@@ -15,7 +15,7 @@ function List() {
 
       <div className="section-">
         <Mynft img="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample51.jpg"  time="00M 00D" price="1klay"/>
-        <Mynft img="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample31.jpg" time="00M 00D" price="1klay"/>
+        <Mynft img="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample31.jpg" time="00M 00D" price="1klay" isAuction="true"/>
       </div>
 
 

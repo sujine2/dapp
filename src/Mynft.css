@@ -17,12 +17,13 @@
     color: #ffffff;
     text-align: left;
 }
-.nft{
+.nft,.nft-{
     cursor: pointer;
 }
 
+.nft-:hover,
 .nft:hover{
-    box-shadow: 0px 0px 10px 2px lightgray;
+    box-shadow: 0px 0px 10px 6px lightgray;
 }
 
 .nft- img,
@@ -130,5 +131,6 @@
 
 #contained-modal-title-vcenter,
 #mdBody{
+    
     font-family: 'Source Sans Pro', sans-serif;
 }
