@@ -30,7 +30,7 @@ function ModalInfo(props) {
             <br/>
             <p>Price decreases per second : <br/> &nbsp;&nbsp;&nbsp;0.5Klay <br/></p>
             {props.buy?
-            <Button>Buy</Button>: null}
+            <div className="butn"><Button >Buy</Button></div> : null}
           </div>
         </Modal.Body>
         <Modal.Footer>
